@@ -1,4 +1,4 @@
-# EnadinhoGameJam
+# Enadinho GameJam
 
 ## Explicando o desafio
 
