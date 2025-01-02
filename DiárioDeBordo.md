@@ -27,12 +27,12 @@ Também estabeleci algumas regras para o desenvolvimento
 * Os prazos para desenvolvimento não precisam ser necessariamente corridos de uma vez, podendo ter pausas no timer que deverá ser anotado para que uma vez que se retorne para o desenvolvimento do projeto, conte corretamente o tempo gasto para desenvolver(resumindo, não é necessário programar por 12 horas direto durante a ultima etapa, ou deixar o timer rolando enquanto almoço ou realizo alguma tarefa não relacionada com desenvolver o projeto)
 * A ideia é seguir o principio do desenvolvimento embrionário e ir desenvolvendo conforme as necessidades do projeto e não ter um planejamento muito bem definido de como tudo deve ser feito desde o início visando o produto final
 
-## Meia hora
+## Meia hora (0:30:00 total)
 
 Durante a primeira meia hora desenvolvendo(que eram pra ser apenas 10 minutos, porém nada estava pronto no site), desenvolvi uma tela que possuía apenas uma questão inserida de forma hard-coded, que o usuário escolhia uma alternativa e ela era validada por uma função JS, retornando se foi a resposta certa ou errada, tive problemas com o retorno das funções js quando tentei usar um for dentro de uma função, já que o for em js utiliza uma closure para ser executado, adicionei também css para não desenvolver numa tela completamente em branco.
 Nesse ponto havia apenas um arquivo index.html que poderia facilmente ser dividido para um arquivo index.html, um arquivo style.css e um app.js.
 
-## Uma hora + meia hora
+## Uma hora + meia hora (1:30:00 total)
 
 Utilizando tudo que criei nas primeiras meia hora e desenvolvendo por mais uma hora, obtive um resultado interessante de desenvolver porém sem usos práticos, passei a usar PHP ao invés de utilizar JS (pois já tenho mais costume em como a linguagem funciona e não estava com vontade de passar raiva com closures no JS), tornei a página um pouco mais dinâmica, criei um arquivo com um array que possuía dentro dele arrays que continham todas as informações sobre um determinado enunciado, ou seja, em cada posição do array maior eu possuía um array com informações de um enunciado, como seu titulo e seu texto, além disso, criei uma função de chamar o array de enunciados e aleatorizar um enunciado dentre todos e salvar seus valores numa variável.
 Também fiz a mesma estrutura com a parte da questão, sendo salvo a qual enunciado ela pertencia, a pergunta feita sobre o enunciado e as alternativas(de A até E) e qual a alternativa correta, usando o valor no padrão de indices de array(começando em 0).
@@ -88,7 +88,7 @@ A seguir um trecho de código de como o array de enunciados e de questões estav
 ]
 ```
 
-## Seis horas - Uma hora e meia
+## Seis horas - Uma hora e meia (6:00:00 total)
 //Em produção
 
 * Transformar o array em uma tabela em um banco de dados
